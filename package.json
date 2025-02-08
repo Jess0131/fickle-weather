@@ -1,0 +1,22 @@
+{
+  "name": "fickle-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jess0131@github.com/Jess0131/fickle-weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jess0131/fickle-weather/issues"
+  },
+  "homepage": "https://github.com/Jess0131/fickle-weather#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
