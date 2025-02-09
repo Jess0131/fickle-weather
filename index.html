@@ -3,9 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fickle Weather</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello World</h1>
+  <header>
+    <h1>Fickle Weather</h1>
+  </header>
+
+  <main>
+    <section class="location-selector">
+      <label for="location">Select Location:</label>
+      <select id="location" name="location">
+        <option value="">Please select a location</option>
+        <option value="Toronto" selected>Toronto, Canada</option>
+        <option value="London">London, UK</option>
+        <option value="Tokyo">Tokyo, Japan</option>
+        <option value="New York">New York, USA</option>
+        <option value="Sydney">Sydney, Australia</option>
+      </select>
+    </section>
+
+    <section class="weather-display">
+      <!-- Weather information will be inserted here via JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by WeatherAPI.com</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
